@@ -1,0 +1,1 @@
+void MFCC(short *data, float *res);

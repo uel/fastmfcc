@@ -1,0 +1,7 @@
+.vscode
+*.exe
+*.dll
+*.so
+
+main.py
+main.cpp
