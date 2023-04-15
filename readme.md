@@ -21,7 +21,7 @@ float mfccs[13];
 MFCC(test_data, mfccs);
 ```
 
-Precomputed coefficients will take up between 2-20KB of additional read-only data depending on the choosen parameters but lead to significant speed increases. A minimal amount of floating-point operations is used to enable realtime performance without an FPU.
+Precomputed data will take up between 2-20KB of additional read-only data depending on the choosen parameters but lead to significant speed increases. A minimal amount of floating-point operations is used to enable realtime performance without an FPU.
 
 ## Microcontroller Compatibility
 Has been tested to work on Arduino NANO 33 BLE and Raspberry Pi Pico with 1024 frame size, 48 mel bins and 13 mfccs.
